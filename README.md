@@ -7,6 +7,9 @@ This repository is to provide solution for problems below
 - provide API for query recent time traps (which may be converted to CSV) 
 - conversion of active traps data to CSV format is not done yet
 
+Topology and flow looks like this
+![Topology](/Images/Topology.png)
+
 Highlevel step:
 1. Setup ELK
 2. Setup Nginx for ELK (optional)
