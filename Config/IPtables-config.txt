@@ -1,0 +1,3 @@
+sudo iptables -t mangle -A PREROUTING -i ens3 -d 192.168.255.250 -p udp --dport 10162 -j TEE --gateway 127.0.0.1
+sudo iptables -t nat -A PREROUTING -d 192.168.255.250 -p udp --dport 10162 -j DNAT --to-destination 192.168.255.201:162
+sudo iptables -t nat -A POSTROUTING -d 192.168.255.201 --dport 162 -p udp -o ens3 -j SNAT --to-source 192.168.255.250:1025-32000
