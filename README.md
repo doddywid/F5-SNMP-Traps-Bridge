@@ -8,7 +8,7 @@ This repository is to provide solution for problems below
 - conversion of active traps data to CSV format is not done yet
 
 Topology and flow looks like this
-![Topology](/Images/Topology.png)
+![Topology](/Images/Topology_lab.png)
 
 Highlevel step:
 1. Setup ELK
