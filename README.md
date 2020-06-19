@@ -10,7 +10,7 @@ Highlevel step:
 1. Setup ELK
 2. Setup Nginx for ELK (optional)
 3. Enable IPv4 forwarding
-4. Configure IPtables rules (please refer to /Config/iptables-config.txt)
+4. Configure IPtables rules (please refer to /Config/IPtables-config.txt)
 5. Configure logstash to ingest snmptrap and output to elasticsearch
-6. Query API
+6. Query API (please refer to /Config/Logstash-query-API.txt)
 7. Convert JSON to CSV (to be done, can be shell script or ouput from logstash)
