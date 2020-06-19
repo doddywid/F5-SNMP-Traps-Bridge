@@ -1,6 +1,6 @@
 # F5-SNMP-Traps-Bridge
-Provide bridge for SNMP Traps sent from multiple BIGIP devices to 3rd party Traps Manager
-Refer to https://github.com/doddywid/F5-SNMP-MIB/ for brief explanation of F5 SNMP MIB & Traps structure
+Provide bridge for SNMP Traps sent from multiple BIGIP devices to 3rd party Traps Manager.
+Refer to https://github.com/doddywid/F5-SNMP-MIB/ for brief explanation of F5 SNMP MIB & Traps structure.
 
 This repository is to provide solution for problems below  
 - provide concentrator and single source for SNMP Trap manager to collect traps from multiple BIGIP devices 
