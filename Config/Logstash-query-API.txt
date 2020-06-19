@@ -1,0 +1,6 @@
+Curl command to query last 15 minutes Traps
+curl -XPOST -H 'Content-type:application/json' localhost:9200/<index-name-daily>/_search -d '{"query": {"range": {"@timestamp": {"gt": "now-15m"}}}}'
+
+ex:
+
+curl -XPOST -H 'Content-type:application/json' localhost:9200/snmptrap_f5-2020.06.18/_search -d '{"query": {"range": {"@timestamp": {"gt": "now-15m"}}}}'
